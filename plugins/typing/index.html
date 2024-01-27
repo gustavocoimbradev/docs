@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Plugin JS</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gustavocoimbradev/accessibility-plugin-js@master/dist/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gustavocoimbradev/typing-plugin-js@master/dist/css/style.css">
     <link rel="stylesheet" href="../../public/css/style.css">
 </head>
 <body>
@@ -46,11 +46,13 @@
 
             <section>
                 <h3>See it in action</h4>
-                <div class="js-accessibility accessibility">
-                    <button class="js-increase increase">A+</button>
-                    <button class="js-decrease decrease">a-</button>
-                    <button class="js-contrast contrast">contrast</button>
+
+                <div class="typing-js" typing-time="40" sleeping-time="1450" deleting-time="25" interval-time="1000" typing-loop="1">
+                    <span typing-text="Hello, I'm typing this text"></span>
+                    <span typing-text="Wow, that's nice!"></span>
+                    <span typing-text="Ok, I'm bored now. Bye..."></span>
                 </div>
+
             </section>
 
 
@@ -69,7 +71,7 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/gh/gustavocoimbradev/accessibility-plugin-js@master/dist/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gustavocoimbradev/typing-plugin-js@master/dist/js/script.js"></script>
     <script src="../../public/js/script.js"></script>
 </body>
 </html>
