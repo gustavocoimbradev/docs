@@ -59,6 +59,9 @@ code {
   margin: 20px 0;
   line-height: 140%;
 }
+code b {
+  font-weight: 500;
+}
 
 header {
   display: flex;
