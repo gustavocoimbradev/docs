@@ -73,6 +73,10 @@ code {
     b {
         font-weight: 500;
     }
+    a.link {
+        color: $accent;
+        text-decoration: underline;
+    }
 }
 
 // Other
