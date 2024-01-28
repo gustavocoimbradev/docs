@@ -30,10 +30,10 @@ h3 {
 .container {
   width: 100%;
   max-width: calc(100% - 30px);
+  margin: 0 auto;
 }
 @media (min-width: 1200px) {
   .container {
-    margin: 0 auto;
     max-width: 900px;
   }
 }
