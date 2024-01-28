@@ -59,6 +59,7 @@ code {
   margin: 20px 0;
   line-height: 140%;
   white-space: wrap;
+  word-break: break-all;
 }
 code b {
   font-weight: 500;
